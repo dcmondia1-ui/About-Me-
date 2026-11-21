@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects>
+
+    <project>
+        <title>MAHAL</title>
+        <description>
+            A short film written by my friends where I participated as an actor.
+            The project was inspired by our love for indie films and the song
+            "Mahal Magmahal" by Esremborak.
+        </description>
+        <date>2026-06-16</date>
+    </project>
+
+    <project>
+        <title>Pagpasok sa Pagiging Batang Ina</title>
+        <description>
+            A speech piece about coming of age and embracing responsibility
+            through becoming a mother to a cat.
+        </description>
+        <date>2024-03-08</date>
+    </project>
+
+    <project>
+        <title>Unboxing</title>
+        <description>
+            An editorial piece inspired by Hidilyn Diaz's Olympic journey. It
+            explores how women continue to break free from misogynistic standards
+            in sports while highlighting the challenges athletes face due to
+            limited support and funding.
+        </description>
+        <date>2023-05-07</date>
+    </project>
+
+</projects>

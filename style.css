@@ -29,7 +29,7 @@ header p {
     margin-top: 10px;
 }
 
-/* MAIN CONTENT */
+/* CONTENT */
 
 section {
     background-color: #fffaf5;
@@ -59,10 +59,24 @@ a:hover {
     text-decoration: underline;
 }
 
-/* IMAGE */
+/* ABOUT ME FLEXBOX */
+
+.about-container {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.about-container img {
+    width: 250px;
+    max-width: 100%;
+    border: 3px solid #6b8e23;
+    border-radius: 10px;
+}
+
+/* OTHER IMAGES */
 
 img {
-    width: 300px;
     max-width: 100%;
     border: 3px solid #6b8e23;
     border-radius: 10px;
@@ -76,18 +90,6 @@ footer {
     margin-top: 30px;
 }
 
-/* FLEXBOX */
-
-.about-container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.about-container img {
-    width: 250px;
-}
-
 /* MOBILE */
 
 @media (max-width: 600px) {
@@ -98,6 +100,7 @@ footer {
 
     .about-container img {
         width: 100%;
+        max-width: 300px;
     }
 
     header h1 {

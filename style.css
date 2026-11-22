@@ -39,7 +39,14 @@ header p {
     color: #f5efe6;
     margin-top: 10px;
 }
+/* TAGLINE */
 
+header p.tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
 /* CONTENT */
 
 section {
